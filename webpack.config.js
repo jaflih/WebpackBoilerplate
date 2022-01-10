@@ -6,7 +6,7 @@ module.exports = {
   mode: 'production',
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      template: './src/index.html',
     }),
   ],
   output: {
